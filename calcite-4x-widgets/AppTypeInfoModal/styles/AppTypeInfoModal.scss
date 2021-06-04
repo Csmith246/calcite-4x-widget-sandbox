@@ -1,0 +1,20 @@
+.app-description-modal {
+
+  .app-desc-image {
+    float: right;
+    margin-left: 20px;
+    margin-top: 5px;
+    border: 1px solid black;
+  }
+
+  &__description {
+    h4 {
+      font-weight: bold;
+    }
+  }
+
+  calcite-button{
+    width: 140px;
+    height: 41px;
+  }
+}

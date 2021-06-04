@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+      "baseUrl": ".",
+      "sourceMap": true,
+      "declaration": false,
+      "noImplicitReturns": false,
+      "noImplicitThis": false,
+      "noImplicitAny": false,
+      "strictNullChecks": false,
+      
+      "module": "ES2015",
+      "moduleResolution": "node",
+      "target": "es6",
+      "experimentalDecorators": true,
+      "allowSyntheticDefaultImports": true,
+      "jsx": "react",
+      "jsxFactory": "tsx",
+      "suppressImplicitAnyIndexErrors": true,
+      "importHelpers": true,
+      "lib": [
+          "dom",
+          "es2015",
+          "scripthost"
+      ],
+      "skipLibCheck": true,
+      "preserveConstEnums": true,
+      "resolveJsonModule": true,
+      "esModuleInterop": true,
+  },
+  "exclude": [
+      "./node_modules",
+  ]
+}
